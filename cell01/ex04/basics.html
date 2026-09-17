@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 20px;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        .shops-container {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-bottom: 40px;
+        }
+        .shop-box {
+            text-align: center;
+        }
+        .shop-box img {
+            width: 260px;
+            height: 160px;
+            object-fit: contain;
+            background-color: white;
+            border-radius: 8px;
+            padding: 10px;
+            display: block;
+            margin-bottom: 12px;
+        }
+        .shop-box a {
+            font-size: 18px;
+            font-weight: bold;
+            color: #111;
+            text-decoration: underline;
+        }
+        hr {
+            width: 100%;
+            border: 0;
+            border-top: 2px solid black;
+            margin-bottom: 15px;
+        }
+        .footer {
+            text-align: right;
+            font-family: monospace;
+            font-style: italic;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Shops!</h1>
+
+    <div class="shops-container">
+        <div class="shop-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+            <a href="https://www.amazon.com" target="_blank">Visit Amazon</a>
+        </div>
+        <div class="shop-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay">
+            <a href="https://www.ebay.com" target="_blank">Visit eBay</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        &copy; stiatrag 2026
+    </div>
+</body>
+</html>
